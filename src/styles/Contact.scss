@@ -1,0 +1,16 @@
+@import "_main.scss";
+
+.contact-info {
+  text-align: center;
+  line-height: 2;
+  margin: 5rem 0;
+
+  i {
+    font-size: 1.5em;
+    color: $light-grey;
+  }
+  a {
+    text-decoration: none;
+    color: $pink;
+  }
+}

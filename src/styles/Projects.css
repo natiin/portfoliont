@@ -1,0 +1,100 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop,
+.kanban,
+.calculator,
+.to-do-list {
+  margin-bottom: 4em;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #895f2a;
+  background: linear-gradient(0deg, rgba(137, 95, 42, 0.403799) 0%, black 99%);
+}
+
+.imgs-tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 85px));
+  grid-gap: 1rem;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.imgs-tech-grid {
+  width: 100%;
+}
+
+.imgs-tech {
+  width: 10rem;
+}
+
+.description {
+  margin: 5rem 0;
+  text-align: justify;
+  flex: 20em;
+}
+
+.description .project-name {
+  margin-bottom: 0.5em;
+  color: #f08;
+}
+
+.description p {
+  margin: 0.7em 0;
+}
+
+.img-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
+  padding: 1em;
+  flex: 20em;
+}
+
+.img-project-container .project-img {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.img-project-container .project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: initial;
+  margin-top: 2em;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    margin-right: 0;
+  }
+}
+
+.btn-link {
+  border: 2px solid #895f2a;
+  color: #ffee00;
+  padding: 0.25em;
+  text-decoration: none;
+}
+
+.btn {
+  color: #ded6d6;
+  text-decoration: none;
+  font-size: initial;
+  transition: all 1s ease;
+  border: 1px solid #f08;
+  padding: 0.25em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #895f2a;
+}
+/*# sourceMappingURL=Projects.css.map */

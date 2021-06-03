@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACL,KAAK,EEFM,OAAO;EFGlB,MAAM,EAAE,GAAG;EACX,SAAS,EAAE,KAAK;CACjB",
+    "sources": [
+        "Footer.scss",
+        "_main.scss",
+        "_variables.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

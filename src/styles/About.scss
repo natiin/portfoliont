@@ -1,0 +1,11 @@
+@import "_main.scss";
+.about-me {
+  line-height: 1.5;
+  text-align: justify;
+  margin: 5rem 0;
+
+  .about-me-projects {
+    text-decoration: none;
+    color: $pink;
+  }
+}

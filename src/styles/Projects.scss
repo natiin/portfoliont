@@ -1,0 +1,92 @@
+@import "_main.scss";
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop,
+.kanban,
+.calculator,
+.to-do-list {
+  margin-bottom: 4em;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(137, 95, 42);
+  background: linear-gradient(0deg, rgba(137, 95, 42, 0.40379901960784315) 0%, rgba(0, 0, 0, 1) 99%);
+}
+
+.imgs-tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 85px));
+  grid-gap: 1rem;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.imgs-tech-grid {
+  width: 100%;
+}
+.imgs-tech {
+  width: 10rem;
+}
+
+.description {
+  margin: 5rem 0;
+  text-align: justify;
+  flex: 20em;
+  .project-name {
+    margin-bottom: 0.5em;
+    color: $pink;
+  }
+  p {
+    margin: 0.7em 0;
+  }
+}
+
+.img-project-container {
+  @include flex(column, center, initial);
+  padding: 1em;
+  flex: 20em;
+
+  .project-img {
+    width: 100%;
+    margin-top: 3em;
+  }
+
+  .project-links {
+    @include flex(row, space-evenly, initial);
+    margin-top: 2em;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    margin-right: 0;
+  }
+}
+
+.btn-link {
+  border: 2px solid $dark-yellow;
+  color: $yellow;
+  padding: 0.25em;
+  text-decoration: none;
+}
+
+.btn {
+  color: $light-grey;
+  text-decoration: none;
+  font-size: initial;
+  transition: all 1s ease;
+  border: 1px solid $pink;
+  padding: 0.25em;
+
+  &:hover {
+    cursor: pointer;
+    color: $dark-yellow;
+  }
+}
